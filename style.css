@@ -22,8 +22,23 @@ height: 30px;
     border-radius: 20px;
 }
 
+#jumbotron{
+    background-image: url("./img/jumbo-bg.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 600px;
+    margin-top:96px;
+}
 
-
+#jumbo_img{
+    transform: scale(.5);
+    margin-left: -220px;
+}
+@media only screen and (max-width: 768px){
+    #jumbotron{
+        height: 700px;
+    }
+}
 
 
 
