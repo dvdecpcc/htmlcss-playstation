@@ -22,48 +22,30 @@ height: 30px;
     border-radius: 20px;
 }
 
+/* MAIN: JUMBOTRON SECTION */
+
 #jumbotron{
     background-image: url("./img/jumbo-bg.png");
-    background-size: 100%;
-    background-repeat: no-repeat;
-    height: 600px;
-    margin-top:96px;
-}
-
-#jumbo_img{
-    transform: scale(.5);
-    margin-left: -220px;
-    margin-top: 4rem;
-}
-
-.myst_btn{
-    padding: 5px 10px;
-    border-radius: 20px;
-    border: none;
-}
-.myst_btn_red{
-    background-color: rgb(181, 50, 50);
-    color: white;
-}
-.myst_btn:hover{
-    outline-offset: 2px;
-}
-
-@media only screen and (max-width: 768px){
-    #jumbotron{
-        height: 700px;
-    }
+    background-size: cover;
+    background-position: center;
+    margin-top: 96px;
 }
 
 
+.myst_jumbotron{
+    padding-top: 200px;
+}
+
+.myst_red_btn{
+    background-color: #cd3d10;
+}
+
+.myst_jumbo_small img:active{
+    outline: solid 2px lightblue;
+    outline-offset: 4px;
+}
 
 
-
-
-
-
-
-
-
-
-/* <i class="bi bi-chevron-down"></i> */
+.myst_jumbo_small img:hover{
+    transform: translateY(10px);
+}
