@@ -49,3 +49,15 @@ height: 30px;
 .myst_jumbo_small img:hover{
     transform: translateY(10px);
 }
+
+.myst_blue_btn{
+    background-color: rgb(45, 100, 229);
+}
+  
+.ps_cards .myst_select_cards:hover{
+    border-bottom: 3px solid rgb(45, 100, 229);
+}
+
+.my_select_cards img:hover{
+    opacity: 1; 
+}
