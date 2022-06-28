@@ -33,7 +33,22 @@ height: 30px;
 #jumbo_img{
     transform: scale(.5);
     margin-left: -220px;
+    margin-top: 4rem;
 }
+
+.myst_btn{
+    padding: 5px 10px;
+    border-radius: 20px;
+    border: none;
+}
+.myst_btn_red{
+    background-color: rgb(181, 50, 50);
+    color: white;
+}
+.myst_btn:hover{
+    outline-offset: 2px;
+}
+
 @media only screen and (max-width: 768px){
     #jumbotron{
         height: 700px;
