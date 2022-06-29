@@ -60,9 +60,41 @@ height: 30px;
     border-bottom: 3px solid rgb(45, 100, 229);
 }
 
-.my_select_cards img:hover{
-    opacity: 1; 
+.myst_select_cards img:hover{
+    opacity: 1!important;
 }
+
+#bonus_id{
+    display: none;
+} 
+#bonus_id:target{
+   display: block;
+}
+#bonus_id2{
+    display: none;
+}
+#bonus_id2:target{
+   display: block;
+}
+#bonus_id3{
+    display: none;
+}
+#bonus_id3:target{
+   display: block;
+}
+#bonus_id4{
+    display: none;
+}
+#bonus_id4:target{
+   display: block;
+}
+#bonus_id5{
+    display: none;
+}
+#bonus_id5:target{
+   display: block;
+}
+
 
 #jumbotron2{
     background-image: url("./img/it-takes-two-hero-banner-desktop.jpg");
@@ -97,5 +129,5 @@ footer{
 }
 
 #logo_footer{
-   filter: 
+    filter: brightness(0) invert(1);
 }
