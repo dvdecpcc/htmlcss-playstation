@@ -52,6 +52,8 @@ height: 30px;
 
 .myst_blue_btn{
     background-color: rgb(45, 100, 229);
+    border: none;
+    color: white;
 }
   
 .ps_cards .myst_select_cards:hover{
