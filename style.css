@@ -61,3 +61,10 @@ height: 30px;
 .my_select_cards img:hover{
     opacity: 1; 
 }
+
+#jumbotron2{
+    background-image: url("./img/it-takes-two-hero-banner-desktop.jpg");
+    background-size: cover;
+    background-position: center;
+    margin-top: 96px;
+}
